@@ -1,0 +1,22 @@
+# LinkedIn Automation System - Environment Configuration
+# Copy this content to a .env file and fill in your actual API keys
+
+# PhantomBuster Configuration
+PHANTOMBUSTER_API_KEY=your_phantombuster_api_key_here
+PHANTOM_ID=your_linkedin_outreach_phantom_id_here
+
+# DeepSeek LLM Configuration
+DEEPSEEK_API_KEY=your_deepseek_api_key_here
+
+# Database Configuration
+DB_PATH=linkedin_outreach.db
+
+# Message Templates
+DEFAULT_CONNECTION_TEMPLATE="Hi {first_name}, I noticed your work at {company}. Would love to connect and exchange ideas."
+
+# Campaign Settings
+MAX_FOLLOWUP_ATTEMPTS=3
+FOLLOWUP_DELAY_HOURS=24
+
+# Optional: Logging Level (DEBUG, INFO, WARNING, ERROR)
+LOG_LEVEL=INFO 
